@@ -1,0 +1,14 @@
+#!/bin/sh
+
+. "$UZBL_UTIL_DIR/uzbl-dir.sh"
+
+URIFILE="$1"
+
+INPUT_FILE="$UZBL_TABLOAD_DIR/$URIFILE"
+
+[ -r $INPUT_FILE ] || exit 1
+
+for uri in $INPUT_FILE
+do
+    echo "event NEW_TAB_NEXT $uri" > "$UZBL_FIFO"
+done

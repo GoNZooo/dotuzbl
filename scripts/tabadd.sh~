@@ -1,0 +1,3 @@
+#!/bin/sh
+
+. "$UZBL_UTIL_DIR/uzbl-dir.sh"

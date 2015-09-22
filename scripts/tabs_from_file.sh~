@@ -1,0 +1,3 @@
+#!/bin/sh
+
+INPUT_FILE=$1
