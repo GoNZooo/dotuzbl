@@ -121,6 +121,7 @@ set selected_section  = <span foreground="#606060">\@[\@SELECTED_URI]\@</span>
 
 set download_section  = <span foreground="white">\@downloads</span>
 
+set default_font_family     = "Droid Sans"
 set sans_serif_font_family	= "Droid Sans"
 set serif_font_family		= "Droid Serif"
 set monospace_font_family	= "Terminus"
